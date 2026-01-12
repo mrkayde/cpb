@@ -1,5 +1,3 @@
-This installs on ubuntu 22.04 including java and mongodb
-
 #!/bin/bash
 
 # Script to install TP-Link Omada Controller with dependencies
@@ -73,5 +71,6 @@ else
     log "Omada Controller installation completed, but service is not running."
     log "Please check logs at /opt/tplink/EAPController/logs/ for details."
 fi
+
 
 log "Installation process completed."
